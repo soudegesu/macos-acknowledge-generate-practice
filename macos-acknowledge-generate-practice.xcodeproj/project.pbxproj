@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE6C63C3145C4BB5F4D9DDD /* Pods_macos_acknowledge_generate_practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DABAF2972062EC053D375F /* Pods_macos_acknowledge_generate_practice.framework */; };
+		580EB2DBC3F912740336A5D0 /* Pods_macos_acknowledge_generate_practice_macos_acknowledge_generate_practiceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD2876E6E136850FCD39506 /* Pods_macos_acknowledge_generate_practice_macos_acknowledge_generate_practiceUITests.framework */; };
 		9BD6DF5A2607328B0040225D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6DF592607328B0040225D /* AppDelegate.swift */; };
 		9BD6DF5C2607328B0040225D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6DF5B2607328B0040225D /* ContentView.swift */; };
 		9BD6DF5E2607328C0040225D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD6DF5D2607328C0040225D /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		9BD6DF642607328C0040225D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD6DF622607328C0040225D /* Main.storyboard */; };
 		9BD6DF702607328C0040225D /* macos_acknowledge_generate_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6DF6F2607328C0040225D /* macos_acknowledge_generate_practiceTests.swift */; };
 		9BD6DF7B2607328C0040225D /* macos_acknowledge_generate_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6DF7A2607328C0040225D /* macos_acknowledge_generate_practiceUITests.swift */; };
+		E641467F4BEADC4B7A40A5C5 /* Pods_macos_acknowledge_generate_practiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504D7F8CA099EBC72B362F54 /* Pods_macos_acknowledge_generate_practiceTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC43AF078E7F5D231947AE5 /* Pods-macos-acknowledge-generate-practiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macos-acknowledge-generate-practiceTests.release.xcconfig"; path = "Target Support Files/Pods-macos-acknowledge-generate-practiceTests/Pods-macos-acknowledge-generate-practiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FD2876E6E136850FCD39506 /* Pods_macos_acknowledge_generate_practice_macos_acknowledge_generate_practiceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macos_acknowledge_generate_practice_macos_acknowledge_generate_practiceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504D7F8CA099EBC72B362F54 /* Pods_macos_acknowledge_generate_practiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macos_acknowledge_generate_practiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5386A71051E6432BAF8812B0 /* Pods-macos-acknowledge-generate-practiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macos-acknowledge-generate-practiceTests.debug.xcconfig"; path = "Target Support Files/Pods-macos-acknowledge-generate-practiceTests/Pods-macos-acknowledge-generate-practiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		771EA75C8B15B9F578F8153D /* Pods-macos-acknowledge-generate-practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macos-acknowledge-generate-practice.release.xcconfig"; path = "Target Support Files/Pods-macos-acknowledge-generate-practice/Pods-macos-acknowledge-generate-practice.release.xcconfig"; sourceTree = "<group>"; };
+		796ABCB08A8584E83A379CA0 /* Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.release.xcconfig"; path = "Target Support Files/Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests/Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80C690D905741B2A5BE6CEB2 /* Pods-macos-acknowledge-generate-practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macos-acknowledge-generate-practice.debug.xcconfig"; path = "Target Support Files/Pods-macos-acknowledge-generate-practice/Pods-macos-acknowledge-generate-practice.debug.xcconfig"; sourceTree = "<group>"; };
 		9BD6DF562607328B0040225D /* macos-acknowledge-generate-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macos-acknowledge-generate-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD6DF592607328B0040225D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BD6DF5B2607328B0040225D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +58,8 @@
 		9BD6DF762607328C0040225D /* macos-acknowledge-generate-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macos-acknowledge-generate-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD6DF7A2607328C0040225D /* macos_acknowledge_generate_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_acknowledge_generate_practiceUITests.swift; sourceTree = "<group>"; };
 		9BD6DF7C2607328C0040225D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C65A8DFD930A846730FA42 /* Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.debug.xcconfig"; path = "Target Support Files/Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests/Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6DABAF2972062EC053D375F /* Pods_macos_acknowledge_generate_practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macos_acknowledge_generate_practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE6C63C3145C4BB5F4D9DDD /* Pods_macos_acknowledge_generate_practice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E641467F4BEADC4B7A40A5C5 /* Pods_macos_acknowledge_generate_practiceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580EB2DBC3F912740336A5D0 /* Pods_macos_acknowledge_generate_practice_macos_acknowledge_generate_practiceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +97,8 @@
 				9BD6DF6E2607328C0040225D /* macos-acknowledge-generate-practiceTests */,
 				9BD6DF792607328C0040225D /* macos-acknowledge-generate-practiceUITests */,
 				9BD6DF572607328B0040225D /* Products */,
+				D826FDEE70C23A00770C10CF /* Pods */,
+				EF3B25E8F9B22510851CFDC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +152,30 @@
 			path = "macos-acknowledge-generate-practiceUITests";
 			sourceTree = "<group>";
 		};
+		D826FDEE70C23A00770C10CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80C690D905741B2A5BE6CEB2 /* Pods-macos-acknowledge-generate-practice.debug.xcconfig */,
+				771EA75C8B15B9F578F8153D /* Pods-macos-acknowledge-generate-practice.release.xcconfig */,
+				B0C65A8DFD930A846730FA42 /* Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.debug.xcconfig */,
+				796ABCB08A8584E83A379CA0 /* Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.release.xcconfig */,
+				5386A71051E6432BAF8812B0 /* Pods-macos-acknowledge-generate-practiceTests.debug.xcconfig */,
+				2DC43AF078E7F5D231947AE5 /* Pods-macos-acknowledge-generate-practiceTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF3B25E8F9B22510851CFDC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6DABAF2972062EC053D375F /* Pods_macos_acknowledge_generate_practice.framework */,
+				3FD2876E6E136850FCD39506 /* Pods_macos_acknowledge_generate_practice_macos_acknowledge_generate_practiceUITests.framework */,
+				504D7F8CA099EBC72B362F54 /* Pods_macos_acknowledge_generate_practiceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BD6DF7F2607328C0040225D /* Build configuration list for PBXNativeTarget "macos-acknowledge-generate-practice" */;
 			buildPhases = (
+				D56DDA7C2A7E4CB217BA8FC5 /* [CP] Check Pods Manifest.lock */,
 				9BD6DF522607328B0040225D /* Sources */,
 				9BD6DF532607328B0040225D /* Frameworks */,
 				9BD6DF542607328B0040225D /* Resources */,
@@ -159,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BD6DF822607328C0040225D /* Build configuration list for PBXNativeTarget "macos-acknowledge-generate-practiceTests" */;
 			buildPhases = (
+				BB216BFA507FB2C10E61AE5D /* [CP] Check Pods Manifest.lock */,
 				9BD6DF672607328C0040225D /* Sources */,
 				9BD6DF682607328C0040225D /* Frameworks */,
 				9BD6DF692607328C0040225D /* Resources */,
@@ -177,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BD6DF852607328C0040225D /* Build configuration list for PBXNativeTarget "macos-acknowledge-generate-practiceUITests" */;
 			buildPhases = (
+				2D7BF043F44F1640CE204E24 /* [CP] Check Pods Manifest.lock */,
 				9BD6DF722607328C0040225D /* Sources */,
 				9BD6DF732607328C0040225D /* Frameworks */,
 				9BD6DF742607328C0040225D /* Resources */,
@@ -259,6 +303,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D7BF043F44F1640CE204E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB216BFA507FB2C10E61AE5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-macos-acknowledge-generate-practiceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56DDA7C2A7E4CB217BA8FC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-macos-acknowledge-generate-practice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BD6DF522607328B0040225D /* Sources */ = {
@@ -430,6 +543,7 @@
 		};
 		9BD6DF802607328C0040225D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C690D905741B2A5BE6CEB2 /* Pods-macos-acknowledge-generate-practice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +566,7 @@
 		};
 		9BD6DF812607328C0040225D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771EA75C8B15B9F578F8153D /* Pods-macos-acknowledge-generate-practice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +589,7 @@
 		};
 		9BD6DF832607328C0040225D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5386A71051E6432BAF8812B0 /* Pods-macos-acknowledge-generate-practiceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +611,7 @@
 		};
 		9BD6DF842607328C0040225D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC43AF078E7F5D231947AE5 /* Pods-macos-acknowledge-generate-practiceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +633,7 @@
 		};
 		9BD6DF862607328C0040225D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C65A8DFD930A846730FA42 /* Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +653,7 @@
 		};
 		9BD6DF872607328C0040225D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796ABCB08A8584E83A379CA0 /* Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
