@@ -24,8 +24,13 @@ class AcknowledgementPanel: NSPanel {
     
     self.setContentSize(NSSize(width: 640, height: 480))
     
-    let text = "<html><body><h1>Hello World</h1></body></html>"
-    let acknowledge = AcknowledgementView(text: text)
+    guard let path: String = Bundle.main.path(forResource: "acknowledge", ofType: "html") else {
+      return
+      
+    }
+    let localHTMLUrl = URL(fileURLWithPath: path, isDirectory: false)
+    
+    let acknowledge = AcknowledgementView(url: localHTMLUrl)
     self.contentView = NSHostingView(rootView: acknowledge)
   }
   

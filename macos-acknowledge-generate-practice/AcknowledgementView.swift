@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AcknowledgementView: NSViewRepresentable {
   
-  var text: String
+  var url: URL
   
   typealias NSViewType = WKWebView
   
@@ -19,14 +19,19 @@ struct AcknowledgementView: NSViewRepresentable {
   }
   
   func updateNSView(_ nsView: WKWebView, context: Context) {
-    nsView.loadHTMLString(text, baseURL: nil)
+    nsView.loadFileURL(url, allowingReadAccessTo: url)
   }
 }
 
 
 struct AcknowledgementView_Previews: PreviewProvider {
     static var previews: some View {
-      AcknowledgementView(text: "<html><body><h1>Hello World</h1></body></html>")
+      Group {
+        if let path = Bundle.main.path(forResource: "acknowledge", ofType: "html"),
+           let localHTMLUrl = URL(fileURLWithPath: path, isDirectory: false) {
+            AcknowledgementView(url: localHTMLUrl)
+        }
+      }
     }
 }
 
