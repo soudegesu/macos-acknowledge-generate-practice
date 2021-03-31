@@ -2,17 +2,19 @@
 //  AppDelegate.swift
 //  macos-acknowledge-generate-practice
 //
-//  Created by Takaaki Suzuki on 2021/03/21.
+//  Created by soudegesu on 2021/03/21.
 //
 
 import Cocoa
 import SwiftUI
+import PreferencePanes
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
   var window: NSWindow!
-
+  //メニューバーに表示されるアプリケーションを作成
+  let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
   func applicationDidFinishLaunching(_ aNotification: Notification) {
     // Create the SwiftUI view that provides the window contents.
@@ -28,6 +30,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     window.setFrameAutosaveName("Main Window")
     window.contentView = NSHostingView(rootView: contentView)
     window.makeKeyAndOrderFront(nil)
+          
+    window?.toolbar = AppToolbar(identifier: .init("Default"))
+    
+    NSApp.mainMenu = AppMenu()
   }
 
   func applicationWillTerminate(_ aNotification: Notification) {

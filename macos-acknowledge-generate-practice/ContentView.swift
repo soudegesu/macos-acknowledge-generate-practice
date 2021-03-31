@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  macos-acknowledge-generate-practice
 //
-//  Created by Takaaki Suzuki on 2021/03/21.
+//  Created by soudegesu on 2021/03/21.
 //
 
 import SwiftUI
