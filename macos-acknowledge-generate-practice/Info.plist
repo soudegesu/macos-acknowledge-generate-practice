@@ -28,5 +28,10 @@
 	<string>Copyright © 2021 soudegesu. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>Application</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

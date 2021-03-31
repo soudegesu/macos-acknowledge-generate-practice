@@ -24,6 +24,8 @@
 		9BECECFC2613FCA700989C26 /* AppToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECECFB2613FCA700989C26 /* AppToolbar.swift */; };
 		9BECED072614551000989C26 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECED062614551000989C26 /* Application.swift */; };
 		9BECED0C26145DEF00989C26 /* AboutPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECED0B26145DEF00989C26 /* AboutPanel.swift */; };
+		9BECED1426146B7B00989C26 /* AcknowledgementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECED1326146B7B00989C26 /* AcknowledgementView.swift */; };
+		9BECED1926146D3000989C26 /* AcknowledgementPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECED1826146D3000989C26 /* AcknowledgementPanel.swift */; };
 		E641467F4BEADC4B7A40A5C5 /* Pods_macos_acknowledge_generate_practiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504D7F8CA099EBC72B362F54 /* Pods_macos_acknowledge_generate_practiceTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		9BECECFB2613FCA700989C26 /* AppToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppToolbar.swift; sourceTree = "<group>"; };
 		9BECED062614551000989C26 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		9BECED0B26145DEF00989C26 /* AboutPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPanel.swift; sourceTree = "<group>"; };
+		9BECED1326146B7B00989C26 /* AcknowledgementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementView.swift; sourceTree = "<group>"; };
+		9BECED1826146D3000989C26 /* AcknowledgementPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementPanel.swift; sourceTree = "<group>"; };
 		B0C65A8DFD930A846730FA42 /* Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.debug.xcconfig"; path = "Target Support Files/Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests/Pods-macos-acknowledge-generate-practice-macos-acknowledge-generate-practiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6DABAF2972062EC053D375F /* Pods_macos_acknowledge_generate_practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macos_acknowledge_generate_practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -165,6 +169,8 @@
 				9BECECF62613FBA500989C26 /* AppMenu.swift */,
 				9BECED062614551000989C26 /* Application.swift */,
 				9BECED0B26145DEF00989C26 /* AboutPanel.swift */,
+				9BECED1826146D3000989C26 /* AcknowledgementPanel.swift */,
+				9BECED1326146B7B00989C26 /* AcknowledgementView.swift */,
 				9BD6DF5D2607328C0040225D /* Assets.xcassets */,
 				9BD6DF622607328C0040225D /* Main.storyboard */,
 				9BD6DF652607328C0040225D /* Info.plist */,
@@ -448,10 +454,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BECED1426146B7B00989C26 /* AcknowledgementView.swift in Sources */,
 				9BECED0C26145DEF00989C26 /* AboutPanel.swift in Sources */,
 				9BECED072614551000989C26 /* Application.swift in Sources */,
 				9BECECF72613FBA500989C26 /* AppMenu.swift in Sources */,
 				9BD6DF5C2607328B0040225D /* ContentView.swift in Sources */,
+				9BECED1926146D3000989C26 /* AcknowledgementPanel.swift in Sources */,
 				9BD6DF5A2607328B0040225D /* AppDelegate.swift in Sources */,
 				9BECECFC2613FCA700989C26 /* AppToolbar.swift in Sources */,
 			);

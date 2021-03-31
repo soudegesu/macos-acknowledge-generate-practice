@@ -1,5 +1,5 @@
 //
-//  AboutPanel.swift
+//  AcknowledgementPanel.swift
 //  macos-acknowledge-generate-practice
 //
 //  Created by soudegesu on 2021/03/31.
@@ -8,7 +8,7 @@
 import Cocoa
 import SwiftUI
 
-class AboutPanel: NSPanel {
+class AcknowledgementPanel: NSPanel {
 
   override init(contentRect: NSRect, styleMask style: NSWindow.StyleMask, backing backingStoreType: NSWindow.BackingStoreType, defer flag: Bool) {
 
@@ -22,22 +22,11 @@ class AboutPanel: NSPanel {
     let leftPoint = NSPoint(x: screenFrame.midX, y: screenFrame.maxY)
     self.setFrameTopLeftPoint(leftPoint)
     
-    self.contentView = NSHostingView(rootView: AboutPage())
+    self.setContentSize(NSSize(width: 640, height: 480))
+    
+    let text = "<html><body><h1>Hello World</h1></body></html>"
+    let acknowledge = AcknowledgementView(text: text)
+    self.contentView = NSHostingView(rootView: acknowledge)
   }
   
-}
-
-struct AboutPage: View {
-  
-  @State var text = "<html><body><h1>Hello World</h1></body></html>"
-  
-  var body: some View {
-    VStack(spacing: 10) {
-      Button(action: {
-        AcknowledgementPanel().makeKeyAndOrderFront(nil)
-      }, label: {
-        Text("Acknowledgements")
-      })
-    }
-  }
 }
