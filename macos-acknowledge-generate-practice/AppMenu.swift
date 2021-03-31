@@ -17,7 +17,9 @@ class AppMenu: NSMenu {
     let mainMenu = NSMenuItem()
     mainMenu.submenu = NSMenu(title: "MainMenu")
     mainMenu.submenu?.items = [
-      NSMenuItem(title: "About \(applicationName)", action: #selector(NSApplication.orderFrontStandardAboutPanel(_:)), keyEquivalent: ""),
+      NSMenuItem(title: "About \(applicationName)",
+                             action: #selector(NSApplication.orderFrontStandardAboutPanel(_:)),
+                             keyEquivalent: ""),
       NSMenuItem.separator(),
       NSMenuItem(title: "Preferences...", action: nil, keyEquivalent: ","),
       NSMenuItem.separator(),
